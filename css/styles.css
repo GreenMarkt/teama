@@ -1,6 +1,9 @@
 
 
-
+.container{
+  width: 1280px;
+  margin: 0 auto;
+}
 
 .organic-vegatables{
   background-color: #7A3145;
@@ -63,7 +66,3 @@
   margin-left: 10px 0;
 }
 
-.container{
-  width: 1280px;
-  margin: 0 auto;
-}
