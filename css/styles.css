@@ -9,4 +9,51 @@
 .body{
   max-width: 1280px;
 }
+.header-container{
+  background-color: #576f35;
+  width: 1280px;
+height: 52px;
+top: 32px;
+padding: 0px 100px 0px 100px;
+gap: 397px;
+opacity: 0px;
+display: flex;
 
+}
+
+
+.navbar-ul{
+  display: flex;
+  width: 489px;
+height: Hug 52px;
+gap: 20px;
+opacity: 0px;
+list-style-type: none;
+padding-left: 600px;
+
+}
+.navcontainer{
+  font-family: Inter Tight;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.02em;
+text-align: center;
+color: #FBFBFB;
+background-color: transparent;
+justify-content: center;
+
+}
+
+.but-how{
+  border: 1px solid #FBFBFB66;
+ 
+  width: 114px;
+height: 44px;
+padding: 12px 0px 0px 0px;
+gap: 10px;
+border-radius: 12px 12px 12px 12px;
+
+opacity: 0px;
+
+}
