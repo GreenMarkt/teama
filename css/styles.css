@@ -15,7 +15,8 @@ body{
 .container{
   width: 1280px;
   margin: 0 auto;
-<<<<<<< HEAD
+  text-align: center;
+  justify-content: center;
 }
 
 
@@ -89,8 +90,3 @@ body{
   margin-top: 2%;
 
 }
-=======
-  text-align: center;
-  justify-content: center;
-}
->>>>>>> main
