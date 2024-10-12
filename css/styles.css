@@ -63,12 +63,7 @@
   margin-left: 10px 0;
 }
 
-.product-card > p{
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 18px;
-  letter-spacing: -1.5%;
-  color:#141414;
-  margin-top: 2%;
-
+.container{
+  width: 1280px;
+  margin: 0 auto;
 }
