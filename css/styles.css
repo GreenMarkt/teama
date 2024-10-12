@@ -29,7 +29,7 @@ height: 52px;
 gap: 20px;
 opacity: 0px;
 list-style-type: none;
-padding-left: 600px;
+padding-left: 500px;
 
 }
 .navcontainer{
@@ -52,7 +52,7 @@ height: 44px;
 
 gap: 10px;
 border-radius: 12px 12px 12px 12px;
-margin-top:-150px;
+
 opacity: 0px;
 
 }
@@ -84,6 +84,7 @@ height: 18px;
 gap: 0px;
 opacity: 0px;
 margin-top:20px;
+display: flex;
 
 }
 
