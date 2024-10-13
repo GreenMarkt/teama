@@ -50,7 +50,7 @@ body {
 
 .organic-vegatables{
   background-color: #7A3145;
-  padding: 6.25em;
+  padding: 100px;
   gap: 50px;
 }
 
@@ -93,7 +93,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 21px;
-
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .product-card{
@@ -101,6 +103,8 @@ body {
   border-radius: 40px;
   width: 346px;
   padding: 32px;
+  gap: 10px;
+  box-sizing: border-box;
 }
 
 .product-card > h3 {
