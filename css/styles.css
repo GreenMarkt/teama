@@ -20,6 +20,9 @@ body {
   background-position: right;
   font-family: "Inter Tight" sans-serif;
   padding-left: 100px;
+  paddin-right:100px;
+  padding-bottom:50px;
+  padding-top:238px;
 }
 
 .first-div .title {
@@ -30,6 +33,9 @@ body {
   color: #fbfbfb;
   text-align: left;
   width: 502px;
+  text-transform: uppercase;
+  margin:0;
+ 
 }
 
 .explain {
