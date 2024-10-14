@@ -19,9 +19,18 @@
   
 }
 
+.backdrop{
+  width: 430px;
+  height: 559px;
+background-color: red;
+}
+
 .first-part-img {
+  width: 430px;
+  height: 559px;
+  object-fit: cover;
   border-radius: 30px;
-  background-size: cover;
+  filter: brightness(80%);
 }
 
 .section-second-second-part {
