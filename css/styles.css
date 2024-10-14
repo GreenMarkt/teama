@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 128px;
-  background-image: url(/images/hero.jpg);
+  background-image: url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-position: right;
   font-family: "Inter Tight" sans-serif;
