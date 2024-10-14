@@ -27,7 +27,7 @@ body {
   background-position: right;
   font-family: "Inter Tight" sans-serif;
   padding-left: 100px;
-  paddin-right:100px;
+  padding-right:100px;
   padding-bottom:50px;
   padding-top:238px;
 }
@@ -126,6 +126,8 @@ body {
   line-height: 32px;
   letter-spacing: -1.5%;
   color: #7A3145;
+  gap: 12px;
+  margin-bottom: 5%;
 
 }
 
@@ -135,6 +137,7 @@ body {
   line-height: 18px;
   letter-spacing: -1.5%;
   color:#141414;
+  gap: 12px;
 }
 
 
