@@ -102,9 +102,9 @@ font-size: 18px;
 font-weight: 600;
 line-height: 20px;
 letter-spacing: -0.015em;
+}
 
-
-
-
+.but-shop:hover{
+  background: #622133;
 
 }
