@@ -1,3 +1,4 @@
+
 *,
 *::before,
 *::after {
@@ -12,7 +13,7 @@
 .header-container{
   background-color: #576f35;
   width: 1280px;
-height: 52px;
+height: 80px;
 top: 32px;
 padding: 0px 100px 0px 100px;
 gap: 397px;
@@ -29,11 +30,12 @@ height: 52px;
 gap: 20px;
 opacity: 0px;
 list-style-type: none;
-padding-left: 500px;
+margin-left: 550px;
+margin-top: -30px;
 
 }
 .navcontainer{
-font-family: inter tight;
+font-family: "Inter Tight", sans-serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 20px;
@@ -49,7 +51,7 @@ justify-content: center;
   border: 1px solid #FBFBFB66;
   width: 114px;
 height: 44px;
-
+margin-top: 5px;
 gap: 10px;
 border-radius: 12px 12px 12px 12px;
 
@@ -60,18 +62,17 @@ opacity: 0px;
 .but-veg{
   width: 101px;
 height: 44px;
-
 gap: 10px;
 border-radius: 12px 12px 12px 12px;
 border: 1px solid #FBFBFB66;
 opacity: 0px;
-
+margin-top: 5px;
 }
 
 .but-rev{
   width: 81px;
 height: 44px;
-padding: 12px 0px 0px 0px;
+margin-top: 5px;
 gap: 10px;
 border-radius: 12px 12px 12px 12px;
 border: 1px solid #FBFBFB66;
@@ -96,11 +97,12 @@ gap: 10px;
 border-radius: 30px 30px 30px 30px;
 opacity: 0px;
 background: #7A3145;
-font-family: Inter Tight;
+font-family: "Inter Tight", sans-serif;
 font-size: 18px;
 font-weight: 600;
 line-height: 20px;
 letter-spacing: -0.015em;
+
 
 
 
