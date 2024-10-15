@@ -43,9 +43,9 @@ background-color: red;
   width: 450px;
   height: 499px;
   padding-left: 100px;
-  padding-bottom: 160px;
-  padding-top: 100px;
-  padding-right: 100px;
+  padding-right:100px;
+  padding-bottom:50px;
+  padding-top:238px;
 }
 
 .section-second-second-part-header {
@@ -222,34 +222,19 @@ background-color: red;
   color: #141414;
 }
 
-.section-second-second-part-third-step-p span {
-  font-family: Inter Tight;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: -0.02em;
-  text-align: left;
-  color: #141414;
+.product-card > h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -1.5%;
+  color: #7A3145;
+
 }
 
-.section-second-second-part-first-step-img{
-  padding-left: 24px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 24px;
-}
-
-.section-second-second-part-second-step-img{
-  padding-left: 24px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 24px;
-}
-
-
-.section-second-second-part-third-step-img{
-  padding-left: 24px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 24px;
+.product-card > p{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -1.5%;
+  color:#141414;
 }
