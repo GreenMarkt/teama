@@ -18,11 +18,13 @@ body {
   background-image: url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-position: right;
+  background-size: 650px 800px;
   font-family: "Inter Tight" sans-serif;
   padding-left: 100px;
   paddin-right:100px;
   padding-bottom:50px;
   padding-top:238px;
+  max-width: 100%;
 }
 
 .first-div .title {
@@ -46,6 +48,7 @@ body {
   width: 472px;
   height: 80px;
 }
+
 
 .first-image {
   width: 650px;
