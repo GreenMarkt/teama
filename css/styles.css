@@ -20,14 +20,16 @@ body {
   background-position: right;
   background-size: 650px 800px;
   font-family: "Inter Tight" sans-serif;
-  padding-left: 100px;
-  paddin-right:100px;
-  padding-bottom:50px;
-  padding-top:238px;
+  padding-left: 60px;
+  padding-right:100px;
+  
   max-width: 100%;
+  
 }
 
-.first-div .title {
+.title{
+  text-align: left;
+  align-items: center;
   font-weight: 600;
   font-size: 76px;
   line-height: 1;
@@ -35,10 +37,20 @@ body {
   color: #fbfbfb;
   text-align: left;
   width: 502px;
+  height:auto;
   text-transform: uppercase;
   margin:0;
+  /* padding-bottom:128px; */
+  padding-top:238px;
+ 
+  
  
 }
+.first-list{
+  list-style-type: none;
+  
+}
+
 
 .explain {
   font-weight: 500;
@@ -47,13 +59,23 @@ body {
   color: #fbfbfb;
   width: 472px;
   height: 80px;
+  padding-bottom:50px;
+  
+  
 }
 
 
 .first-image {
-  width: 650px;
-  height: 800px;
+  width: 100%;
+  height: auto;
   background-image: linear-gradient(rgba(20, 20, 20, 0.2));
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+  body{
+    display:block;
+  }
+  
 }
 
 
