@@ -170,11 +170,13 @@ body {
 
 /* Form Container Styles */
 .form-container {
-  background-color: white;
-  padding: 30px;
-  border-radius: 15px;
+  background-color:#FBFBFB;
+  padding: 50px;
+  border-radius: 30px;
   flex: 1;
-  min-width: 300px;
+  width: 529;
+  height: 534;
+  gap: 10px;;
 }
 
 .form-title {
