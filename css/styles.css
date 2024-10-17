@@ -229,9 +229,9 @@ body {
 
 /* Social Container Styles */
 .social-container {
-  background-color: #5C7C3E;
-  padding: 30px;
-  border-radius: 15px;
+  background-color: #576f35;
+  padding: 50px;
+  border-radius: 30px;
   flex: 1;
   min-width: 300px;
   display: flex;
