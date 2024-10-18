@@ -363,8 +363,11 @@ body {
 }
 
 .section-second-second-part-first-step-p {
-  width: 325px;
+  box-sizing: content-box;
+  padding-top: 18px;
+  padding-bottom: 18px;
   height: 40px;
+  width: 325px;
   font-family: Inter Tight;
   font-size: 16px;
   font-weight: 500;
@@ -450,6 +453,9 @@ body {
 }
 
 .section-second-second-part-first-step-img{
+  width: 100px;
+    height: 76px;
+  box-sizing: border-box;
   padding-left: 24px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -457,6 +463,9 @@ body {
 }
 
 .section-second-second-part-second-step-img{
+  width: 100px;
+  height: 76px;
+box-sizing: border-box;
   padding-left: 24px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -465,6 +474,9 @@ body {
 
 
 .section-second-second-part-third-step-img{
+  width: 100px;
+  height: 76px;
+box-sizing: border-box;
   padding-left: 24px;
     padding-top: 12px;
     padding-bottom: 12px;
