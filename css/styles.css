@@ -153,9 +153,12 @@ body {
 }
 
 .reviews-title {
-    font: 600 64px/64px "Studio Pro", sans-serif;
+  width: 553px;
+    font-weight: 600;
+    font-size: 64px;
     letter-spacing: -0.96px;
     text-transform: uppercase;
+    line-height: 64px;
 }
 
 .reviews-subtitle {
