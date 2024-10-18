@@ -286,7 +286,7 @@ body {
   margin: 0 auto;
   width: 450px;
   height: 96px;
-  font-family: "Inter Tight", sans-serif;
+  
   font-size: 32px;
   font-weight: 600;
   line-height: 32px;
@@ -297,7 +297,6 @@ body {
 }
 
 .section-second-second-part-header span {
-  font-family: "Inter Tight", sans-serif;
   font-size: 32px;
   font-weight: 600;
   line-height: 32px;
@@ -310,7 +309,6 @@ body {
 .section-second-second-part-text {
   width: 450px;
   height: 60px;
-  font-family: Inter Tight;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -340,6 +338,8 @@ body {
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
+  padding: 12px 25px 12px 24px;
+  gap: 24px;
 }
 
 .section-second-second-part-second-step {
@@ -350,6 +350,8 @@ body {
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
+  padding: 12px 25px 12px 24px;
+  gap: 24px;
 }
 
 .section-second-second-part-third-step {
@@ -360,48 +362,39 @@ body {
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
+  padding: 12px 25px 12px 24px;
+  gap: 24px;
 }
 
 .section-second-second-part-first-step-p {
   width: 325px;
   height: 40px;
-  font-family: Inter Tight;
+  
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
   letter-spacing: -0.02em;
   text-align: left;
   color: #14141499;
-  margin-left: 0px;
-  margin-right: 0px;
-
+  padding: 1%;
+  
 }
 
 .section-second-second-part-second-step-p {
-  width: 323px;
-  height: 20px;
-  font-family: Inter Tight;
+  width: 325px;
+  height: 40px;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
   letter-spacing: -0.02em;
   text-align: left;
   color: #14141499;
-  margin-top: 12px;
-  margin-bottom: 12px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding: 4%;
+  
 }
 
-.section-second-second-part-second-step-p p{
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 
-.section-second-second-part-third-step-p p{
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
+
 
 .section-second-second-part-third-step-p {
   width: 323px;
@@ -413,10 +406,7 @@ body {
   letter-spacing: -0.02em;
   text-align: left;
   color: #14141499;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding: 1%;
 }
 
 .section-second-second-part-first-step-p span {
@@ -429,6 +419,7 @@ body {
   color: #141414;
 }
 
+
 .section-second-second-part-second-step-p span {
   font-family: Inter Tight;
   font-size: 16px;
@@ -438,6 +429,7 @@ body {
   text-align: left;
   color: #141414;
 }
+
 
 .section-second-second-part-third-step-p span {
   font-family: Inter Tight;
