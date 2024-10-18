@@ -138,7 +138,7 @@ body {
 
 .background-wrapper {
   background: url("../images/hero.jpg") right no-repeat;
-  background-size: 50% 100%;
+  background-size: 650px 100%;
   background-color: #576f35;
   padding-top: 32px;
   position: relative;
@@ -229,7 +229,6 @@ body {
 /* section2 css başlangıç */
 
 .section-second {
-  width: 1280px;
   height: 759px;
   display: flex;
   flex-direction: row;
