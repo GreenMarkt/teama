@@ -214,15 +214,19 @@ body {
 }
 
 .submit-btn {
-  background-color: #5C7C3E;
-  color: white;
-  padding: 12px;
+  background-color: #576f35;
+  color: rgb(248, 244, 244);
+  padding-top: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  gap: 10px;
   border: none;
-  border-radius: 8px;
   font-size: 1em;
   cursor: pointer;
   transition: background-color 0.3s;
-  width: 100%;
+  width: 429px;
+  height: 52px;
+  border-radius: 30px;
 }
 
 .submit-btn:hover {
