@@ -87,7 +87,7 @@ body {
 }
 
 .but-shop {
-  width: 165px;
+  width: 157px;
   height: 52px;
   padding: 16px 32px 16px 32px;
   gap: 10px;
@@ -95,10 +95,10 @@ body {
   opacity: 0px;
   background: #7a3145;
   border: none;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
   line-height: 20px;
-  letter-spacing: -0.015em;
+  letter-spacing: -1.5%;
 }
 
 .but-shop:hover {
@@ -184,8 +184,8 @@ body {
   line-height: 20px;
   color: #fbfbfb;
   width: 626px;
-  margin-top: 1.563em;
-  margin-bottom: 1.563em;
+  margin-top: 4.063em;
+  margin-bottom: 4.063em;
 }
 
 .products-list {
@@ -225,23 +225,25 @@ body {
   color: #141414;
   gap: 12px;
 }
-/*section3*/
+
 .organic-up-to{
-  width: 1280px;
-  height: 440px;
+  padding: 100px;
+  position: relative;
+  gap:10px;
 }
 .organic-paragraph{
   width: 1080px;
   height: 240px;
-  margin-left: 113px;
-  padding-top: 100px;
+  
+
 }
 .discount-info{
-  font-family:"Inter Tight" sans-serif;
+  height: 240px;
   font-weight: 600;
   font-size: 76px;
   line-height: 80px;
   letter-spacing: -1.5%;
+
 }
 .up-to{
   background-color: #576f35;
