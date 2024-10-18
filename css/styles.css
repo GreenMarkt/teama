@@ -596,6 +596,7 @@ body {
   align-self: stretch;
   margin: auto 0;
   color: rgba(251, 251, 251, 0.5);
+  text-decoration: none;
   ;
 }
 
