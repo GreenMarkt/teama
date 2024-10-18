@@ -225,6 +225,29 @@ body {
   color: #141414;
   gap: 12px;
 }
+/*section3*/
+.organic-up-to{
+  width: 1280px;
+  height: 440px;
+}
+.organic-paragraph{
+  width: 1080px;
+  height: 240px;
+  margin-left: 113px;
+  padding-top: 100px;
+}
+.discount-info{
+  font-family:"Inter Tight" sans-serif;
+  font-weight: 600;
+  font-size: 76px;
+  line-height: 80px;
+  letter-spacing: -1.5%;
+}
+.up-to{
+  background-color: #576f35;
+  border-radius: 12px;
+  color: #FBFBFB;
+}
 
 .footer {
   display: flex;
