@@ -707,7 +707,7 @@ a:active {
 
 
 .harvest-container {
-  background-color: #722F37;
+  background-color: #7A3145;
   padding: 40px;
   color: white;
   font-family: Arial, sans-serif;
@@ -739,7 +739,6 @@ a:active {
   font-weight: 600;
   line-height: 64px;
   font-family: inter tight;
-  margin-top:-50px;
 }
 
 .description {
