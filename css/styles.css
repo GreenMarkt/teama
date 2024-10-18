@@ -257,11 +257,16 @@ body {
 
 .social-content {
   margin-top: auto;
+  width: 357px;
+  height: 111px;
+  gap: 15px;;
 }
 
 .social-text {
   color: white;
   margin-bottom: 10px;
+  width: 258px;
+  height: 20px;
 }
 
 .social-links {
