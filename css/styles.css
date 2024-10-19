@@ -264,12 +264,17 @@ letter-spacing: -0.015em;
     position:fixed;
     text-align:center;
     transition:all .5s;
+    background-color: #576f35;
   }
   header{
     background-color: #576f35;
     transition:all .5s;
+  
   }
-   ul{
+  .container{
+    background-color: #576f35;
+  }
+  header ul{
     position:fixed;
     width:100%;
     height:100vh;
@@ -277,6 +282,9 @@ letter-spacing: -0.015em;
     left: -100%;
     text-align:center;
     transition:all .5s;
+    flex-direction: column;
+    margin-bottom:500px;
+    background-color: #576f35;
   }
   nav ul li{
     display:block;
