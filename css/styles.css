@@ -240,14 +240,10 @@ letter-spacing: -0.015em;
 }
 
 /*Resposive Design*/
-@media(max-width:952px){
-  
-}
+
 @media(max-width:858px){
   .logo-svg{
     position:fixed;
- 
-
     text-align:center;
     transition:all .5s;
   }
@@ -259,28 +255,21 @@ letter-spacing: -0.015em;
     position:fixed;
     width:100%;
     height:100vh;
-   
     top:80px;
     left:-80%;
     text-align:center;
     transition:all .5s;
-   
-  
   }
-
   nav ul li{
     display:block;
     margin:50px 0;
     line-height:30px;
     background-color: #576f35;
     transition:all .5s;
-
   }
-
   nav ul li button{
     font-size:20px;
     transition:all .5s;
-
   }
 
 }
