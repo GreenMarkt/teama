@@ -262,49 +262,36 @@ body {
 }
 /* section2 css başlangıç */
 
-.section-second {
-  height: 759px;
-  display: flex;
-  flex-direction: row;
-}
-
 .section-second-first-part {
-  width: 630px;
-  height: 759px;
+  height: 530px;
   background-color: #7a3145;
 }
 
 .section-second-first-part-img {
-  width: 430px;
-  height: 559px;
-  padding-left: 100px;
-  padding-top: 100px;
-  
+height: 450px;
+  box-sizing: content-box;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  padding-right: 20px;
 }
 
 .first-part-img {
+  width: 335px;
+  height: 450px;
   border-radius: 30px;
   background-size: cover;
 }
 
 .section-second-second-part {
-  width: 650px;
-  height: 759px;
+  height: 654px;
   background-color: #576f35;
 }
 
-.section-second-second-part-internal {
-  width: 450px;
-  height: 499px;
-  padding-left: 100px;
-  padding-bottom: 160px;
-  padding-top: 100px;
-  padding-right: 100px;
-}
 
 .section-second-second-part-header {
-  width: 450px;
-  height: 96px;
   font-family: "Inter Tight", sans-serif;
   font-size: 32px;
   font-weight: 600;
@@ -316,10 +303,6 @@ body {
 }
 
 .section-second-second-part-header h1 {
-  margin: 0 auto;
-  width: 450px;
-  height: 96px;
-  
   font-size: 32px;
   font-weight: 600;
   line-height: 32px;
@@ -340,8 +323,6 @@ body {
 }
 
 .section-second-second-part-text {
-  width: 450px;
-  height: 60px;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -349,62 +330,26 @@ body {
   color: #fbfbfb;
 }
 
-.section-second-second-part-text p {
-  margin-top: 25px;
-  margin-bottom: 0px;
-  margin-left: 0 px;
-  margin-right: 0px;
-}
-
-.section-second-second-part-steps {
-  width: 450px;
-  height: 268px;
-  padding-bottom: 20px;
-  margin-top: 50px;
-}
-
 .section-second-second-part-first-step {
-  width: 450px;
-  height: 76px;
+
   background-color: #fbfbfb;
   border-radius: 15px;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: row;
-  padding: 12px 25px 12px 24px;
   gap: 24px;
 }
 
 .section-second-second-part-second-step {
-  width: 450px;
-  height: 76px;
   background-color: #fbfbfb;
   border-radius: 15px;
-  margin-bottom: 20px;
   display: flex;
-  flex-direction: row;
-  padding: 12px 25px 12px 24px;
   gap: 24px;
 }
 
 .section-second-second-part-third-step {
-  width: 450px;
-  height: 76px;
   background-color: #fbfbfb;
   border-radius: 15px;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: row;
-  padding: 12px 25px 12px 24px;
-  gap: 24px;
 }
 
 .section-second-second-part-first-step-p {
-  box-sizing: content-box;
-  padding-top: 18px;
-  padding-bottom: 18px;
-  height: 40px;
-  width: 325px;
   font-family: Inter Tight;
   font-size: 16px;
   font-weight: 500;
@@ -412,21 +357,15 @@ body {
   letter-spacing: -0.02em;
   text-align: left;
   color: #14141499;
-  padding: 1%;
-  
 }
 
 .section-second-second-part-second-step-p {
-  width: 325px;
-  height: 40px;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
   letter-spacing: -0.02em;
   text-align: left;
   color: #14141499;
-  padding: 4%;
-  
 }
 
 .reviews-section {
