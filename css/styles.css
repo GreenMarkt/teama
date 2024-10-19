@@ -1008,5 +1008,8 @@ width: 357px;
   .social-container {
       width: 100%;
   }
+  .first-div{
+    flex-direction: column;
+  }
 }
 
