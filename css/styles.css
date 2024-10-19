@@ -71,12 +71,6 @@ body {
   background-image: linear-gradient(rgba(20, 20, 20, 0.2));
 }
 
-@media screen and (min-width:320px) and (max-width:480px){
-  body{
-    display:block;
-  }
-  
-}
 
 
 .organic-vegatables{
@@ -155,4 +149,25 @@ body {
   color:#141414;
 }
 
+/* responsive tasarım*/
+
+@media only screen and (max-width:768px){
+  .first-div{
+    display:flex;
+    flex-direction: column;
+  }
+  .first-list{
+    width: 100%;
+  }
+}
+@media and only screen and(max-width:480px){
+  .explain{
+    padding-bottom:40px;
+
+  }
+  .title{
+    padding-bottom:20px;
+  }
+
+}
 
