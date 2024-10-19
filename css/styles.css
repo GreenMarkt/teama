@@ -25,16 +25,41 @@ body {
   padding: 0px 100px 0px 100px;
   gap: 397px;
   display: flex;
+  flex-direction: column;
+ 
+}
+.but-bar{
+  color:#fff;
+  cursor:pointer;
+}
+#check{
+
+  display: none;
+}
+#check:checked ~ .navbar-ul{
+overflow: visible;
 }
 
 .navbar-ul {
+  top:100%;
   display: flex;
   width: 489px;
-  height: 52px;
+  height: 0;
   gap: 20px;
   list-style-type: none;
   margin-left: 550px;
   margin-top: -30px;
+
+
+}
+.navbar-ul a{
+  display: block;
+  text-align: center;
+  background-color: #622133;
+}
+
+.header li{
+  float:left;
 }
 
 .navcontainer {
@@ -47,6 +72,7 @@ body {
   background-color: transparent;
   justify-content: center;
 }
+
 
 .but-how {
   border: 1px solid #fbfbfb66;
@@ -82,8 +108,27 @@ body {
 .logo-svg {
   width: 194px;
   height: 18px;
-  margin-top: 20px;
+  margin-top: 5px;
   display: flex;
+  margin-left:-70px;
+  flex-direction: column;
+}
+.but-bar{background-color: transparent;
+border:none;
+margin-left: 220px;
+display: flex;
+flex-direction: column;
+}
+.but-x{background-color: transparent;
+  border:none;
+  margin-left: 220px;
+  display: flex;
+  flex-direction: column;
+  display: none;
+
+}
+.svg-bar{
+  margin-top: -14px;
 }
 
 .but-shop {
@@ -110,34 +155,40 @@ body {
   flex-direction: column;
   gap: 128px;
   font-family: "Inter Tight", sans-serif;
-  padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 50px;
-  padding-top: 238px;
   background: none;
+ 
+  
 }
 
 .title {
   font-weight: 600;
-  font-size: 76px;
+  font-size: 48px;
   line-height: 1;
   color: #fbfbfb;
   text-align: left;
   width: 502px;
   text-transform: uppercase;
   margin: 0;
+  width: 335px;
+  height:192px;
+  margin-left:25px;
 }
 
 .explain {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.2;
   color: #fbfbfb;
-  width: 472px;
+  width: 335px;
+  height:90px;
+  margin-top:-90px;
+  margin-left:25px;
 }
 
 .background-wrapper {
-  background: url("../images/hero.jpg") right no-repeat;
+ 
   background-size: 650px 100%;
   background-color: #576f35;
   padding-top: 32px;
@@ -282,7 +333,7 @@ body {
 }
 
 .first-part-img {
-  border-radius: 30px;
+margin-top:-10px;
   background-size: cover;
 }
 
