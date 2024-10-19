@@ -138,8 +138,10 @@ body {
 }
 
 .main-title {
-  font-size: 2.5em;
-  margin-bottom: 10px;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 64px;
+  font-family: inter tight;
 }
 
 .text-white {
@@ -151,15 +153,27 @@ body {
 }
 
 .subtitle {
-  font-size: 2em;
+  font-size: 64px;
   margin-bottom: 20px;
+  font-weight: 600;
+  line-height: 64px;
+  font-family: inter tight;
+  margin-top:-50px;
 }
 
 .description {
-  font-size: 1em;
-  line-height: 1.6;
+  width: 742px;
+  height: 40px;
+  gap: 0px;
+  opacity: 0px;
   margin-bottom: 30px;
   max-width: 800px;
+  font-family: Inter Tight;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+
 }
 
 .boxes-container {
@@ -180,16 +194,45 @@ body {
 }
 
 .form-title {
-  color: #333;
-  font-size: 1.2em;
+  color: #141414;
+  font-size: 24px;
   margin-bottom: 25px;
-  line-height: 1.4;
+  line-height: 26px;
+  width: 428px;
+height: 78px;
+gap: 0px;
+opacity: 0px;
+font-weight: 600px;
+letter-spacing: -1.5%;
+margin-left:25px;
 }
 
-.text-bold {
-  font-weight: 700;
+.fromus{
+  color: #7A3145;
+  letter-spacing: -1.5%;
 }
 
+.theform{
+  color: #576F35;
+  letter-spacing: -1.5%;
+}
+.form-input::placeholder{
+  font-family: Inter Tight;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.02em;
+color: #141414;
+}
+
+.form-textarea::placeholder {
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #141414;
+}
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -197,36 +240,43 @@ body {
 }
 
 .form-group {
-  width: 100%;
+width: 429px;
+gap: 10px;
 }
 
 .form-input, .form-textarea {
-  width: 100%;
+  width: 429px;
   padding: 12px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius:30px;
   font-size: 1em;
+  border: 1px solid #14141433;
+  margin-bottom:10px;
+  margin-left:10px;
 }
 
 .form-textarea {
   height: 100px;
   resize: vertical;
+  border-radius: 30px;
 }
 
 .submit-btn {
   background-color: #576f35;
   color: rgb(248, 244, 244);
   padding-top: 16px;
-  padding-top: 16px;
   padding-bottom: 16px;
+  padding-right: 191px;
+  padding-left: 191px;
   gap: 10px;
   border: none;
+  border-radius: 30px;
   font-size: 1em;
   cursor: pointer;
   transition: background-color 0.3s;
-  width: 429px;
+  width: 429px; 
   height: 52px;
-  border-radius: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .submit-btn:hover {
@@ -267,16 +317,29 @@ body {
 }
 
 .social-text {
-  color: white;
-  margin-bottom: 10px;
+  color: #fbfbfb;
   width: 258px;
   height: 20px;
-  opacity: 0.5;
+  font-family: Inter Tight;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  margin-top:-15px;
+  
 }
 
 .social-links {
-  color: white;
+  color: #fbfbfb; ;
   font-size: 1.1em;
+  font-family: Inter Tight;
+font-size: 32px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: -0.015em;
+gap:12px;
+
+
 }
 
 .social-link {
