@@ -518,6 +518,13 @@ body {
     }
 }
 
+/* CSS */
+.harvest-container {
+  background-color: #722F37;
+  padding: 40px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
 
 .section-second-second-part-third-step-p {
   width: 323px;
@@ -708,9 +715,8 @@ a:active {
 
 .harvest-container {
   background-color: #7A3145;
-  padding: 40px;
+  padding: 100px;
   color: white;
-  font-family: Arial, sans-serif;
 }
 
 .content-wrapper {
@@ -719,10 +725,14 @@ a:active {
 }
 
 .main-title {
+  width: 751px;
   font-size: 64px;
   font-weight: 600;
   line-height: 64px;
-  font-family: inter tight;
+  gap: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
+  
 }
 
 .text-white {
@@ -738,27 +748,28 @@ a:active {
   margin-bottom: 20px;
   font-weight: 600;
   line-height: 64px;
-  font-family: inter tight;
+  margin-left: 25px;
+  margin-bottom: 25px;
 }
 
 .description {
   width: 742px;
   height: 40px;
-  gap: 0px;
   opacity: 0px;
   margin-bottom: 30px;
   max-width: 800px;
-  font-family: Inter Tight;
 font-size: 16px;
 font-weight: 500;
 line-height: 20px;
 text-align: left;
+margin-left: 25px;
+margin-bottom: 50px;
 
 }
 
 .boxes-container {
   display: flex;
-  gap: 30px;
+  gap: 50px;
   flex-wrap: wrap;
 }
 
@@ -768,8 +779,8 @@ text-align: left;
   padding: 50px;
   border-radius: 30px;
   flex: 1;
-  width: 529;
-  height: 534;
+  width: 529px;
+  height: 534px;
   gap: 10px;;
 }
 
@@ -797,7 +808,7 @@ margin-left:25px;
   letter-spacing: -1.5%;
 }
 .form-input::placeholder{
-  font-family: Inter Tight;
+  
 font-size: 16px;
 font-weight: 500;
 line-height: 20px;
@@ -806,7 +817,7 @@ color: #141414;
 }
 
 .form-textarea::placeholder {
-  font-family: Inter Tight;
+  
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -820,6 +831,8 @@ color: #141414;
 }
 
 .form-group {
+width: 429px;
+gap: 10px;
 
   width: 429px;
 height: 52px;
@@ -840,6 +853,30 @@ gap: 10px;
 .form-textarea {
   height: 100px;
   resize: vertical;
+  border-radius: 30px;
+}
+
+.submit-btn {
+  background-color: #576f35;
+  color: rgb(248, 244, 244);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 191px;
+  padding-left: 191px;
+  gap: 10px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 429px; 
+  height: 52px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.submit-btn:hover {
+  background-color: #4A6432;
   border-radius: 15px;
 }
 
@@ -859,7 +896,6 @@ gap: 10px;
 border-radius: 30px;
 opacity: 0px;
 margin-left:28px;
-font-family: Inter Tight;
 font-size: 18px;
 font-weight: 600;
 line-height: 20px;
@@ -868,18 +904,26 @@ letter-spacing: -0.015em;
 
 
 .imgjuice{
-margin-left:60px;
+width: 427px;
+height: 273px;
+padding: 20px;
+border-radius: 15px;
+
+  
 }
 
 /* Social Container Styles */
 .social-container {
   background-color: #576f35;
   padding: 50px;
+  gap: 50px;
   border-radius: 30px;
   flex: 1;
   min-width: 300px;
   display: flex;
   flex-direction: column;
+  width: 527px;
+  height: 534px;
 }
 
 .social-image {
@@ -888,12 +932,18 @@ margin-left:60px;
   overflow: hidden;
   height: 273px;
   width: 427px;
+  border-radius: 15px;
+  color: rgba(20, 20, 20, 0.3);
+
+
+  
 }
 
 .social-image img {
   width: 427px;
   height: 273px;
   object-fit: cover;
+  border-radius: 15px;
 
 }
 
@@ -906,13 +956,14 @@ margin-left:60px;
 
 .social-text {
   color: #fbfbfb;
-  width: 258px;
+  opacity: 0.5;
+  width: 300px;
   height: 20px;
-  font-family: Inter Tight;
   font-size: 18px;
   font-weight: 600;
   line-height: 20px;
   letter-spacing: -0.015em;
+  
 
   
 }
@@ -920,12 +971,13 @@ margin-left:60px;
 .social-links {
   color: #fbfbfb; ;
   font-size: 1.1em;
-  font-family: Inter Tight;
 font-size: 32px;
 font-weight: 600;
 line-height: 32px;
 letter-spacing: -0.015em;
 gap:12px;
+margin-top: 20px;
+width: 357px;
 
 
 }
@@ -957,3 +1009,4 @@ gap:12px;
       width: 100%;
   }
 }
+
