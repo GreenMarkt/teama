@@ -999,7 +999,7 @@ width: 357px;
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media screen and (min-width:48opx) and (min-width:768px) {
   .boxes-container {
       flex-direction: column;
   }
