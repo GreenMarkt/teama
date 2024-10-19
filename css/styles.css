@@ -245,13 +245,21 @@ letter-spacing: -0.015em;
 }
 @media(max-width:858px){
   .logo-svg{
-    display: block;
+    position:fixed;
+ 
+
+    text-align:center;
+    transition:all .5s;
+  }
+  header{
+    background-color: #576f35;
+    transition:all .5s;
   }
   header ul{
     position:fixed;
     width:100%;
     height:100vh;
-    background: #576f35;
+   
     top:80px;
     left:-80%;
     text-align:center;
@@ -264,11 +272,14 @@ letter-spacing: -0.015em;
     display:block;
     margin:50px 0;
     line-height:30px;
+    background-color: #576f35;
+    transition:all .5s;
 
   }
 
   nav ul li button{
     font-size:20px;
+    transition:all .5s;
 
   }
 
