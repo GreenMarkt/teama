@@ -715,9 +715,8 @@ a:active {
 
 .harvest-container {
   background-color: #7A3145;
-  padding: 40px;
+  padding: 100px;
   color: white;
-  font-family: Arial, sans-serif;
 }
 
 .content-wrapper {
@@ -780,8 +779,8 @@ margin-bottom: 50px;
   padding: 50px;
   border-radius: 30px;
   flex: 1;
-  width: 529;
-  height: 534;
+  width: 529px;
+  height: 534px;
   gap: 10px;;
 }
 
@@ -809,7 +808,7 @@ margin-left:25px;
   letter-spacing: -1.5%;
 }
 .form-input::placeholder{
-  font-family: Inter Tight;
+  
 font-size: 16px;
 font-weight: 500;
 line-height: 20px;
@@ -818,7 +817,7 @@ color: #141414;
 }
 
 .form-textarea::placeholder {
-  font-family: Inter Tight;
+  
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -897,7 +896,6 @@ gap: 10px;
 border-radius: 30px;
 opacity: 0px;
 margin-left:28px;
-font-family: Inter Tight;
 font-size: 18px;
 font-weight: 600;
 line-height: 20px;
@@ -906,19 +904,26 @@ letter-spacing: -0.015em;
 
 
 .imgjuice{
-margin-left:60px;
+width: 427px;
+height: 273px;
+padding: 20px;
+border-radius: 15px;
 
+  
 }
 
 /* Social Container Styles */
 .social-container {
   background-color: #576f35;
   padding: 50px;
+  gap: 50px;
   border-radius: 30px;
   flex: 1;
   min-width: 300px;
   display: flex;
   flex-direction: column;
+  width: 527px;
+  height: 534px;
 }
 
 .social-image {
@@ -927,12 +932,18 @@ margin-left:60px;
   overflow: hidden;
   height: 273px;
   width: 427px;
+  border-radius: 15px;
+  color: rgba(20, 20, 20, 0.3);
+
+
+  
 }
 
 .social-image img {
   width: 427px;
   height: 273px;
   object-fit: cover;
+  border-radius: 15px;
 
 }
 
@@ -945,14 +956,14 @@ margin-left:60px;
 
 .social-text {
   color: #fbfbfb;
-  width: 258px;
+  opacity: 0.5;
+  width: 300px;
   height: 20px;
-  font-family: Inter Tight;
   font-size: 18px;
   font-weight: 600;
   line-height: 20px;
   letter-spacing: -0.015em;
-  margin-top:-15px;
+  
 
   
 }
@@ -960,12 +971,13 @@ margin-left:60px;
 .social-links {
   color: #fbfbfb; ;
   font-size: 1.1em;
-  font-family: Inter Tight;
 font-size: 32px;
 font-weight: 600;
 line-height: 32px;
 letter-spacing: -0.015em;
 gap:12px;
+margin-top: 20px;
+width: 357px;
 
 
 }
