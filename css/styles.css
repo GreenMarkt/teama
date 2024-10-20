@@ -595,8 +595,6 @@ display: flex;
 }
 
 
-
-
 /* CSS */
 .harvest-container {
   background-color: #722f37;
@@ -1084,3 +1082,41 @@ a:active {
 
 
 
+@media (min-width:769px ) and (max-width:1279px) {
+
+  *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  justify-content: center;
+}
+  
+}
+
+
+
+@media (min-width: 1280px) {
+  
+  *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  justify-content: center;
+}
+}
