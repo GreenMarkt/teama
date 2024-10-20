@@ -20,90 +20,176 @@ body {
 
 .header-container {
   background-color: #576f35;
-  width: 1280px;
   height: 80px;
-  top: 32px;
-  padding: 0px 100px 0px 100px;
-  gap: 397px;
+  padding: 0 20px; 
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.navbar{
+  display: flex;
+  gap: 100px;
+}
+
+.menu-toggle:checked ~ .navbar-ul {
+  left: 37%;
+  width: 375px;
+  height: 886px;
+  visibility: inherit;
 }
 
 .navbar-ul {
+  position: fixed; 
+  top: 0; 
+  left: -250px; 
+  width: 250px;
+  height: 100vh;
+  background-color: #622133;
   display: flex;
-  width: 489px;
-  height: 52px;
-  gap: 20px;
+  align-items: center;
+  transition: center 0.3s ease;
+  z-index: 20;
+  visibility: hidden;
   list-style-type: none;
-  margin-left: 550px;
-  margin-top: -30px;
+}
+
+.navbar-ul a {
+  display: block;
+  text-align: center;
+  width: 100%;
+  gap: 8px;
+  background-color: #622133;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-ul a:hover {
+  background-color: #7a3145;
 }
 
 .navcontainer {
   font-size: 16px;
   font-weight: 500;
-  line-height: 20px;
-  letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
+}
+
+.navbar-ul .shop-now{
+  position: fixed;
+  top: 722px;
+  left: 100px;
+}
+
+.but-how, .but-veg, .but-rev, .but-shop {
+  border: 1px solid #fbfbfb66;
+  width: 120px;
+  height: 44px;
+  border-radius: 12px;
   background-color: transparent;
-  justify-content: center;
-}
-
-.but-how {
-  border: 1px solid #fbfbfb66;
-  width: 114px;
-  height: 44px;
-  margin-top: 5px;
-  gap: 10px;
-  border-radius: 12px 12px 12px 12px;
-
-  opacity: 0px;
-}
-
-.but-veg {
-  width: 101px;
-  height: 44px;
-  gap: 10px;
-  border-radius: 12px 12px 12px 12px;
-  border: 1px solid #fbfbfb66;
-  opacity: 0px;
-  margin-top: 5px;
-}
-
-.but-rev {
-  width: 81px;
-  height: 44px;
-  margin-top: 5px;
-  gap: 10px;
-  border-radius: 12px 12px 12px 12px;
-  border: 1px solid #fbfbfb66;
-  opacity: 0px;
-}
-
-.logo-svg {
-  width: 194px;
-  height: 18px;
-  margin-top: 20px;
-  display: flex;
+  color: white;
+  margin: 5px 0;
+  cursor: pointer;
 }
 
 .but-shop {
+  background-color: #fbfbfb;
+  color: #7A3145;
   width: 157px;
-  height: 52px;
-  padding: 16px 32px 16px 32px;
-  gap: 10px;
-  border-radius: 30px;
-  opacity: 0px;
-  background: #7a3145;
-  border: none;
+  padding: 16px;
   font-size: 17px;
   font-weight: 600;
-  line-height: 20px;
-  letter-spacing: -1.5%;
+  border-radius: 30px;
 }
 
 .but-shop:hover {
-  background: #622133;
+  color: rgba(122, 49, 69, 0.7);
+  
+}
+
+.but-bar {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.logo-svg {
+  margin-left: 0; 
+  margin-right: 20px; 
+  display: flex;
+  align-items: center;
+}
+
+.close-menu {
+  display: none; 
+}
+
+.menu-toggle:checked ~ .navbar-ul {
+  left: 0;
+}
+
+.menu-toggle:checked ~ .navbar-ul .close-menu {
+  display: block; 
+  position: fixed;
+  top : 20px;
+  left: 323px;
+}
+
+.menu-toggle:checked ~ .but-bar {
+  display: none; 
+}
+
+.navbar-ul {
+  position: fixed; 
+ 
+  left: 130px; 
+  width: 250px;
+  height: 886px;
+  background-color: #622133;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: left 0.3s ease;
+  z-index: 20; 
+  gap: 8px;
+
+}
+
+.navbar-ul .close-icon {
+  cursor: pointer;
+  margin: 20px 0; 
+}
+
+.navbar-ul .how-it{
+    margin-top: 240px;
+}
+
+
+
+.first-section .title {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+}
+
+.first-section .explain {
+  font-size: 14px;
+  color: #fbfbfb;
+}
+
+.first-section .img-area {
+  margin-top: 20px;
 }
 
 .first-div {
@@ -111,35 +197,35 @@ body {
   flex-direction: column;
   gap: 128px;
   font-family: "Inter Tight", sans-serif;
-  padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 50px;
-  padding-top: 238px;
   background: none;
 }
 
 .title {
   font-weight: 600;
-  font-size: 76px;
+  font-size: 48px;
   line-height: 1;
   color: #fbfbfb;
   text-align: left;
-  width: 502px;
-  text-transform: uppercase;
-  margin: 0;
+  width: 335px;
+  height: 192px;
+  margin-left: 25px;
 }
 
 .explain {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.2;
   color: #fbfbfb;
-  width: 472px;
+  width: 335px;
+  height: 90px;
+  margin-top: -90px;
+  margin-left: 25px;
 }
 
 .background-wrapper {
-  background: url("../images/hero.jpg") right no-repeat;
-  background-size: 650px 100%;
+  background-size: 375px 100%;
   background-color: #576f35;
   padding-top: 32px;
   position: relative;
@@ -515,20 +601,7 @@ body {
     color: #576f35;
 }
 
-@media (max-width: 991px) {
-    .reviews-section {
-        padding: 0 20px;
-    }
 
-    .reviews-title {
-        font-size: 40px;
-        line-height: 44px;
-    }
-
-    .reviews-grid {
-        margin-top: 40px;
-    }
-}
 
 /* CSS */
 .harvest-container {
