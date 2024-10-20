@@ -41,7 +41,7 @@ body {
 .menu-toggle:checked ~ .navbar-ul {
   left: 37%;
   width: 375px;
-  height: 886px;
+  height: 896px;
   visibility: inherit;
 }
 
@@ -372,7 +372,6 @@ body {
 }
 
 .first-part-img {
-  border-radius: 30px;
   background-size: cover;
 }
 
