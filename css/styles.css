@@ -10,6 +10,7 @@ body {
   font-family: "Inter Tight", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  justify-content: center;
 }
 
 .container {
@@ -237,8 +238,8 @@ body {
 
 .organic-vegatables {
   background-color: #7a3145;
-  padding: 100px;
-  gap: 50px;
+  padding: 80px 20px 80px 20px;
+  gap: 40px;
 }
 
 .info {
@@ -246,9 +247,10 @@ body {
 }
 
 .main-text {
+  width: 335px;
   font-weight: 600;
-  font-size: 64px;
-  line-height: 64px;
+  font-size: 48px;
+  line-height: 50px;
   color: #fbfbfb;
   letter-spacing: -1.5%;
   display: flex;
@@ -256,29 +258,31 @@ body {
 }
 
 .main-text > .opacity-vegetables-text {
+  width: 335px;
   font-weight: 600;
-  font-size: 64px;
-  line-height: 64px;
+  font-size: 48px;
+  line-height: 50px;
   color: #fbfbfb;
   opacity: 0.3;
   letter-spacing: -1.5%;
 }
 
 .info-text {
+  width: 335px;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 18px;
   color: #fbfbfb;
-  width: 626px;
   margin-top: 4.063em;
   margin-bottom: 4.063em;
 }
 
 .products-list {
+  width: 334px;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 21px;
+  gap: 20px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -287,8 +291,8 @@ body {
 .product-card {
   background-color: #fbfbfb;
   border-radius: 40px;
-  width: 346px;
-  padding: 32px;
+  width: 334px;
+  padding: 32px 26px 32px 26px;
   gap: 10px;
   box-sizing: border-box;
 }
@@ -345,7 +349,7 @@ body {
   padding: 50px 100px;
   background-color: #7A3145;
 }
-
+/* section2 css başlangıç */
 
 .section-second {
   height: 759px;
@@ -368,7 +372,7 @@ body {
 }
 
 .first-part-img {
-margin-top:-10px;
+  border-radius: 30px;
   background-size: cover;
 }
 
@@ -513,47 +517,55 @@ margin-top:-10px;
 
 .reviews-section {
     background-color: #fbfbfb;
-    padding: 100px;
+    padding: 80px 20px 80px 20px;
+    gap: 40px;
 }
 
 .reviews-content {
-    display: flex;
-    flex-direction: column;
-    max-width: 553px;
-    color: #141414;
+  width: 335px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 553px;
+  color: #141414;
 }
 
 .reviews-title {
-  width: 553px;
     font-weight: 600;
-    font-size: 64px;
+    font-size: 48px;
     letter-spacing: -0.96px;
     text-transform: uppercase;
-    line-height: 64px;
+    line-height: 50px;
 }
 
 .reviews-subtitle {
     margin-top: 25px;
-    font: 500 16px/20px "Inter Tight", -apple-system, Roboto, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 .reviews-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 50px;
 }
 
 .review-card {
-    border-radius: 24px;
-    background-color: #fbfbfb;
-    border: 1px solid rgba(122, 49, 69, 0.3);
-    padding: 20px;
-    width: 343px;
-    min-height: 258px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  border-radius: 24px;
+  background-color: #fbfbfb;
+  border: 1px solid rgba(122, 49, 69, 0.3);
+  padding: 20px 16px 20px 16px;
+  width: 100%;
+  width: 335x;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-card:first-child {
+  display: flex;
 }
 
 .review-image {
@@ -589,20 +601,7 @@ margin-top:-10px;
     color: #576f35;
 }
 
-@media (max-width: 991px) {
-    .reviews-section {
-        padding: 0 20px;
-    }
 
-    .reviews-title {
-        font-size: 40px;
-        line-height: 44px;
-    }
-
-    .reviews-grid {
-        margin-top: 40px;
-    }
-}
 
 /* CSS */
 .harvest-container {
