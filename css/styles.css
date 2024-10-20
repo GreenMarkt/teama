@@ -258,19 +258,25 @@ body {
   .discount-info {
     width: 736px;
     height: 288px;
+    text-align: center;
   }
 }
 /*Telefon Tasarım*/
 @media (max-width: 375px) {
-  
   .organic-paragraph {
     width: 100%;
     width: 375px;
     height: 469px;
   }
   .discount-info {
-    width: 309px;
-    height: 355px;
+    font-family: "Inter Tight" sans-serif ;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: -1.5%;
+    width: 335px;
+    height: 306px;
+    text-align: left;
   }
 }
 /* section2 css başlangıç */
