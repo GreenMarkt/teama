@@ -614,95 +614,6 @@ body {
   max-width: 100%;
 }
 
-.footer-text {
-  margin-top: 25px;
-}
-
-.block-footer {
-  display: flex;
-  min-width: 240px;
-  align-items: start;
-  gap: 40px 121px;
-  font-weight: 600;
-  justify-content: start;
-  flex-wrap: wrap;
-}
-
-.menu-footer {
-  display: flex;
-  flex-direction: column;
-  font-size: 32px;
-  letter-spacing: -0.48px;
-  line-height: 1;
-  justify-content: start;
-}
-
-.vegetables-footer,
-.reviews-footer {
-  margin-top: 25px;
-}
-
-.contacts-footer {
-  display: flex;
-  flex-direction: column;
-  font-size: 18px;
-  letter-spacing: -0.27px;
-  justify-content: start;
-  width: 215px;
-  color: rgba(251, 251, 251, 1);
-}
-
-.phone-number {
-  line-height: 1;
-}
-
-.address {
-  line-height: 20px;
-  margin-top: 25px;
-}
-
-.privacy-policy {
-  display: flex;
-  margin-top: 125px;
-  align-items: start;
-  gap: 40px 660px;
-  font-size: 18px;
-  color: rgba(251, 251, 251, 0.5);
-  font-weight: 500;
-  letter-spacing: -0.27px;
-  line-height: 1;
-  justify-content: start;
-  flex-wrap: wrap;
-}
-
-.block-4 {
-  display: flex;
-  min-width: 240px;
-  align-items: center;
-  gap: 8px;
-  justify-content: center;
-}
-
-.privacy-policy-2,
-.cookie-settings,
-.block-copyright {
-  align-self: stretch;
-  margin: auto 0;
-  color: rgba(251, 251, 251, 0.5);
-  text-decoration: none;
-}
-
-.privacy-policy a:visited,
-a:active {
-  color: rgba(251, 251, 251, 0.5);
-  text-decoration: none;
-}
-
-.contacts-footer a:link {
-  color: rgba(251, 251, 251, 1);
-  text-decoration: none;
-}
-
 .harvest-container {
   background-color: #7a3145;
   padding: 20px;
@@ -725,11 +636,7 @@ a:active {
   text-align: left;
 }
 .content-wrapper {
-  
   text-align: left;
-  
-  
-
 }
 
 .text-gray {
@@ -754,9 +661,8 @@ a:active {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.3;
-  text-align: left;
-  /* margin-left: 25px;
-  margin-bottom: 50px; */
+
+  margin-bottom: 50px;
   font-family: "Inter Tight", sans-serif;
   color: #fbfbfb;
   text-align: left;
@@ -768,10 +674,9 @@ a:active {
   flex-wrap: wrap;
   border-radius: 30px;
   width: 335px;
-  height: 533px;
+  
 }
 
-/* Form Container Styles */
 .form-container {
   background-color: #fbfbfb;
   border-radius: 30px;
@@ -882,13 +787,12 @@ a:active {
   letter-spacing: -0.015em;
   font-family: "Inter Tight", sans-serif;
   padding-bottom: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 40px;
 }
 
 .imgjuice {
-  width: 427px;
-  height: 273px;
-  padding: 20px;
+  
+  align-items: center;
   border-radius: 15px;
 }
 
@@ -898,36 +802,35 @@ a:active {
   gap: 50px;
   border-radius: 30px;
   flex: 1;
-  min-width: 300px;
   display: flex;
   flex-direction: column;
   width: 335px;
   height: 465px;
-
+  gap: 80px;
 }
 
 .social-image {
   margin-bottom: 20px;
   border-radius: 15px;
   overflow: hidden;
-  height: 273px;
-  width: 295px;
+ 
   border-radius: 15px;
   color: rgba(20, 20, 20, 0.3);
 }
 
 .social-image img {
-  width: 427px;
+  width: 295px;
   height: 273px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 15px;
+
 }
 
 .social-content {
-  margin-top: auto;
-  width: 357px;
-  height: 111px;
-  gap: 15px;
+  width: 295px;
+  height: 92px;
+  gap: 14px;
+  justify-content: left;
 }
 
 .social-text {
@@ -935,51 +838,167 @@ a:active {
   opacity: 0.5;
   width: 300px;
   height: 20px;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
-  line-height: 20px;
+  line-height: 1.2;
   letter-spacing: -0.015em;
+  font-family:"Inter Tight",sans-serif ;
+
 }
 
 .social-links {
   color: #fbfbfb;
-  font-size: 1.1em;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 600;
-  line-height: 32px;
-  letter-spacing: -0.015em;
+  line-height: 1.2px;
+  letter-spacing: -1.5%;
   gap: 12px;
-  margin-top: 20px;
+  margin-top: ;
   width: 357px;
+  font-family:"Inter Tight",sans-serif ;
+  height:60px;
 }
 
 .social-link {
   color: white;
   text-decoration: none;
   transition: opacity 0.3s;
-  width: 142px;
-  height: 32px;
-  size: 32px;
   font-weight: 600;
   line-height: 32px;
-  font-size: 32px;
+  font-size: 24px;
+
 }
 
 .social-link:hover {
   opacity: 0.8;
 }
-
-/* Responsive Design */
-@media screen and (min-width: 48opx) and (min-width: 768px) {
-  .boxes-container {
-    flex-direction: column;
-  }
-
-  .form-container,
-  .social-container {
-    width: 100%;
-  }
-  .first-div {
-    flex-direction: column;
-  }
+.footer {
+  width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 80px;
+  position:relative;
+  margin: 0 auto;
+  
 }
+.menu-contact {
+  display: flex;
+  width: 296px;
+  height: 344px;
+  gap: 40px;
+}
+.footer-menu{
+  font-family:"Inter Tight",sans-serif ;
+  font-size:28px ;
+  font-weight:600px ;
+
+}
+
+.logo-text {
+  width: 296px;
+  height: 84px;
+  gap: 14px;
+}
+.block-footer {
+  width: 215px;
+  height: 220px;
+  gap: 40px;
+}
+
+.footer-text {
+  width: 296px;
+  height: 54px;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #fbfbfb;
+  
+}
+
+
+.nav-footer .footer-menu{
+  font-family: "Inter Tight",sans-serif;
+  font-size:28px;
+  font-weight:600px ;
+  line-height:1.5;
+  letter-spacing: -1.5%;
+  list-style-type: none;
+  
+}
+.contacts-footer{
+  
+  font-family:"Inter Tight",sans-serif;
+  font-weight: 600px;
+  font-size: 14px;
+  margin-top:40px;
+  text-decoration: none;
+  
+ 
+ 
+  
+}
+.address,
+.phone{
+  text-decoration: none;
+ 
+  color:#fbfbfb;
+  width: 215px;
+  height: 68px;
+   
+}
+
+.contact-items{
+  padding-bottom:14px;
+  list-style-type: none;
+  
+}
+.privacy-policy{
+  width: 335px;
+  height: 16px;
+  gap:49px;
+}
+
+.contacts-footer a:link {
+  color: rgba(251, 251, 251, 1);
+  text-decoration: none;
+}
+
+.privacy-policy a:visited,
+a:active {
+  color: rgba(251, 251, 251, 0.5);
+  text-decoration: none;
+}
+
+.privacy-policy-2,
+.cookie-settings,
+.block-copyright {
+  align-self: stretch;
+  margin: auto 0;
+  color: rgba(251, 251, 251, 0.5);
+  text-decoration: none;
+}
+
+.block-4 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  
+}
+
+.privacy-policy {
+  display: flex;
+  align-items: start;
+  font-size: 12px;
+  color: rgba(251, 251, 251, 0.5);
+  font-weight: 500;
+  letter-spacing: -0.27px;
+  line-height: 1;
+  justify-content: start;
+  font-family: "Inter Tight", sans-serif;
+}
+
+
+
