@@ -226,29 +226,53 @@ body {
   gap: 12px;
 }
 /*section3*/
-.organic-up-to{
+.organic-up-to {
   width: 1280px;
   height: 440px;
 }
-.organic-paragraph{
+.organic-paragraph {
   width: 1080px;
   height: 240px;
   margin-left: 113px;
   padding-top: 100px;
 }
-.discount-info{
-  font-family:"Inter Tight" sans-serif;
+.discount-info {
+  font-family: "Inter Tight" sans-serif;
   font-weight: 600;
   font-size: 76px;
   line-height: 80px;
   letter-spacing: -1.5%;
 }
-.up-to{
+.up-to {
   background-color: #576f35;
   border-radius: 12px;
-  color: #FBFBFB;
+  color: #fbfbfb;
 }
-
+/*Tablet tasarım */
+@media (max-width: 768px) {
+  .organic-up-to {
+    width: 100%;
+    width: 768px;
+    height: 488px;
+  }
+  .discount-info {
+    width: 736px;
+    height: 288px;
+  }
+}
+/*Telefon Tasarım*/
+@media (max-width: 375px) {
+  
+  .organic-paragraph {
+    width: 100%;
+    width: 375px;
+    height: 469px;
+  }
+  .discount-info {
+    width: 309px;
+    height: 355px;
+  }
+}
 /* section2 css başlangıç */
 
 .section-second {
@@ -268,7 +292,6 @@ body {
   height: 559px;
   padding-left: 100px;
   padding-top: 100px;
-  
 }
 
 .first-part-img {
@@ -308,7 +331,7 @@ body {
   margin: 0 auto;
   width: 450px;
   height: 96px;
-  
+
   font-size: 32px;
   font-weight: 600;
   line-height: 32px;
@@ -391,7 +414,7 @@ body {
 .section-second-second-part-first-step-p {
   width: 325px;
   height: 40px;
-  
+
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -399,7 +422,6 @@ body {
   text-align: left;
   color: #14141499;
   padding: 1%;
-  
 }
 
 .section-second-second-part-second-step-p {
@@ -412,11 +434,7 @@ body {
   text-align: left;
   color: #14141499;
   padding: 4%;
-  
 }
-
-
-
 
 .section-second-second-part-third-step-p {
   width: 323px;
@@ -441,7 +459,6 @@ body {
   color: #141414;
 }
 
-
 .section-second-second-part-second-step-p span {
   font-family: Inter Tight;
   font-size: 16px;
@@ -451,7 +468,6 @@ body {
   text-align: left;
   color: #141414;
 }
-
 
 .section-second-second-part-third-step-p span {
   font-family: Inter Tight;
@@ -463,27 +479,25 @@ body {
   color: #141414;
 }
 
-.section-second-second-part-first-step-img{
+.section-second-second-part-first-step-img {
   padding-left: 24px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
 }
 
-.section-second-second-part-second-step-img{
+.section-second-second-part-second-step-img {
   padding-left: 24px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
 }
 
-
-.section-second-second-part-third-step-img{
+.section-second-second-part-third-step-img {
   padding-left: 24px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
 }
 
 /* section2 bitiş */
-
