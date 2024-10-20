@@ -41,26 +41,28 @@ overflow: visible;
 }
 
 .navbar-ul {
-  top:100%;
-  display: flex;
-  width: 489px;
-  height: 0;
-  gap: 20px;
-  list-style-type: none;
-  margin-left: 550px;
-  margin-top: -30px;
-
+position: fixed;
+top:0;
+right:0;
+height:100vh;
+width:250px;
+z-index:999;
+background-color: #622133;
+display:flex;
+flex-direction: column;
+align-items: center;
+backdrop-filter: blur(10px);
+display:;
 
 }
 .navbar-ul a{
   display: block;
   text-align: center;
   background-color: #622133;
+  width: 100%;
 }
 
-.header li{
-  float:left;
-}
+
 
 .navcontainer {
   font-size: 16px;
