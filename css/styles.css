@@ -228,28 +228,51 @@ body {
 }
 
 .organic-up-to{
-  padding: 100px;
-  position: relative;
-  gap:10px;
+  height: 469px;
 }
-.organic-paragraph{
-  width: 1080px;
-  height: 240px;
-  
 
+.organic-up-to-container{
+  height: 309px;
+  box-sizing: content-box;
+padding-top: 80px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 80px;
 }
+
+.organic-paragraph{
+  width: 335px;
+  height: 306px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+}
+
+
 .discount-info{
-  height: 240px;
-  font-weight: 600;
-  font-size: 76px;
-  line-height: 80px;
-  letter-spacing: -1.5%;
+font-family: Inter Tight;
+font-size: 48px;
+font-weight: 600;
+line-height: 50px;
+letter-spacing: -0.015em;
+text-align: left;
+
 
 }
 .up-to{
+  display: block;
   background-color: #576f35;
   border-radius: 12px;
   color: #FBFBFB;
+  font-family: Inter Tight;
+font-size: 48px;
+font-weight: 600;
+line-height: 50px;
+letter-spacing: -0.015em;
+text-align: left;
+width: 355px;
+height: 102px;
+
 }
 
 .footer {
@@ -401,7 +424,6 @@ body {
   width: 335px;
   height: 76px;
   background-color: #fbfbfb;
-  margin-bottom: 20px;
   border-radius: 15px;
   gap: 24px;
   display: flex;
@@ -597,13 +619,21 @@ body {
 }
 
 .section-second-second-part-third-step-img {
-  width: 100px;
+  /* width: 100px;
   height: 76px;
   box-sizing: border-box;
   padding-left: 24px;
   padding-top: 12px;
   padding-bottom: 12px;
-  padding-right: 24px;
+  padding-right: 24px; */
+  
+
+  width: 100px;
+  height: 76px;
+box-sizing: border-box;
+margin: auto 0;
+color: rgba(251, 251, 251, 0.5);
+text-decoration: none;
 }
 
 .menu-contact {
