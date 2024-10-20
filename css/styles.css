@@ -227,29 +227,26 @@ body {
   gap: 12px;
 }
 
-.organic-up-to{
+.organic-up-to {
   padding: 100px;
   position: relative;
-  gap:10px;
+  gap: 10px;
 }
-.organic-paragraph{
+.organic-paragraph {
   width: 1080px;
   height: 240px;
-  
-
 }
-.discount-info{
+.discount-info {
   height: 240px;
   font-weight: 600;
   font-size: 76px;
   line-height: 80px;
   letter-spacing: -1.5%;
-
 }
-.up-to{
+.up-to {
   background-color: #576f35;
   border-radius: 12px;
-  color: #FBFBFB;
+  color: #fbfbfb;
 }
 
 .footer {
@@ -258,7 +255,7 @@ body {
   font-family: Inter Tight, sans-serif;
   justify-content: start;
   padding: 50px 100px;
-  background-color: #7A3145;
+  background-color: #7a3145;
 }
 /* section2 css başlangıç */
 
@@ -279,7 +276,6 @@ body {
   height: 559px;
   padding-left: 100px;
   padding-top: 100px;
-  
 }
 
 .first-part-img {
@@ -319,7 +315,7 @@ body {
   margin: 0 auto;
   width: 450px;
   height: 96px;
-  
+
   font-size: 32px;
   font-weight: 600;
   line-height: 32px;
@@ -402,7 +398,7 @@ body {
 .section-second-second-part-first-step-p {
   width: 325px;
   height: 40px;
-  
+
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -410,7 +406,6 @@ body {
   text-align: left;
   color: #14141499;
   padding: 1%;
-  
 }
 
 .section-second-second-part-second-step-p {
@@ -423,105 +418,105 @@ body {
   text-align: left;
   color: #14141499;
   padding: 4%;
-  
 }
 
 .reviews-section {
-    background-color: #fbfbfb;
-    padding: 100px;
+  background-color: #fbfbfb;
+  padding: 100px;
 }
 
 .reviews-content {
-    display: flex;
-    flex-direction: column;
-    max-width: 553px;
-    color: #141414;
+  display: flex;
+  flex-direction: column;
+  max-width: 553px;
+  color: #141414;
 }
 
 .reviews-title {
   width: 553px;
-    font-weight: 600;
-    font-size: 64px;
-    letter-spacing: -0.96px;
-    text-transform: uppercase;
-    line-height: 64px;
+  font-weight: 600;
+  font-size: 64px;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  line-height: 64px;
 }
 
 .reviews-subtitle {
-    margin-top: 25px;
-    font: 500 16px/20px "Inter Tight", -apple-system, Roboto, Helvetica, sans-serif;
+  margin-top: 25px;
+  font: 500 16px/20px "Inter Tight", -apple-system, Roboto, Helvetica,
+    sans-serif;
 }
 
 .reviews-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 50px;
 }
 
 .review-card {
-    border-radius: 24px;
-    background-color: #fbfbfb;
-    border: 1px solid rgba(122, 49, 69, 0.3);
-    padding: 20px;
-    width: 343px;
-    min-height: 258px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  border-radius: 24px;
+  background-color: #fbfbfb;
+  border: 1px solid rgba(122, 49, 69, 0.3);
+  padding: 20px;
+  width: 343px;
+  min-height: 258px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .review-image {
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    object-fit: cover;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .review-content {
-    margin-top: 24px;
-    text-align: center;
-    font-family: "Inter Tight", sans-serif;
+  margin-top: 24px;
+  text-align: center;
+  font-family: "Inter Tight", sans-serif;
 }
 
 .reviewer-name {
-    color: #141414;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.1;
-    letter-spacing: -0.36px;
+  color: #141414;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.36px;
 }
 
 .review-text {
-    color: rgba(20, 20, 20, 0.4);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 22px;
-    margin-top: 8px;
+  color: rgba(20, 20, 20, 0.4);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-top: 8px;
 }
 
 .highlight {
-    color: #576f35;
+  color: #576f35;
 }
 
 @media (max-width: 991px) {
-    .reviews-section {
-        padding: 0 20px;
-    }
+  .reviews-section {
+    padding: 0 20px;
+  }
 
-    .reviews-title {
-        font-size: 40px;
-        line-height: 44px;
-    }
+  .reviews-title {
+    font-size: 40px;
+    line-height: 44px;
+  }
 
-    .reviews-grid {
-        margin-top: 40px;
-    }
+  .reviews-grid {
+    margin-top: 40px;
+  }
 }
 
 /* CSS */
 .harvest-container {
-  background-color: #722F37;
+  background-color: #722f37;
   padding: 40px;
   color: white;
   font-family: Arial, sans-serif;
@@ -550,7 +545,6 @@ body {
   color: #141414;
 }
 
-
 .section-second-second-part-second-step-p span {
   font-family: Inter Tight;
   font-size: 16px;
@@ -560,7 +554,6 @@ body {
   text-align: left;
   color: #141414;
 }
-
 
 .section-second-second-part-third-step-p span {
   font-family: Inter Tight;
@@ -572,26 +565,25 @@ body {
   color: #141414;
 }
 
-.section-second-second-part-first-step-img{
+.section-second-second-part-first-step-img {
   padding-left: 24px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
 }
 
-.section-second-second-part-second-step-img{
+.section-second-second-part-second-step-img {
   padding-left: 24px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
 }
 
-
-.section-second-second-part-third-step-img{
+.section-second-second-part-third-step-img {
   padding-left: 24px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
 }
 
 .menu-contact {
@@ -698,50 +690,50 @@ body {
   margin: auto 0;
   color: rgba(251, 251, 251, 0.5);
   text-decoration: none;
-  ;
 }
 
 .privacy-policy a:visited,
-
 a:active {
   color: rgba(251, 251, 251, 0.5);
   text-decoration: none;
 }
 
-.contacts-footer a:link{
+.contacts-footer a:link {
   color: rgba(251, 251, 251, 1);
   text-decoration: none;
 }
 
-
 .harvest-container {
-  background-color: #7A3145;
-  padding: 100px;
+  background-color: #7a3145;
+  padding: 20px;
   color: white;
-}
-
-.content-wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .main-title {
-  width: 751px;
-  font-size: 64px;
+  width: 335px;
+  height: 200px;
+  font-size: 48px;
   font-weight: 600;
-  line-height: 64px;
+  line-height: 48px;
+  line-height: -1.2;
+  letter-spacing: -1.5%;
   gap: 25px;
-  margin-left: 25px;
-  margin-top: 25px;
-  
+  margin-top: 80px;
+  font-family: "Inter Tight", sans-serif;
+  color: #fbfbfb;
+  margin-bottom: 29px;
+  text-align: left;
 }
+.content-wrapper {
+  
+  text-align: left;
+  
+  
 
-.text-white {
-  color: white;
 }
 
 .text-gray {
-  color: #A9A9A9;
+  color: #a9a9a9;
 }
 
 .subtitle {
@@ -754,35 +746,38 @@ a:active {
 }
 
 .description {
-  width: 742px;
-  height: 40px;
+  width: 335px;
+  height: 72px;
   opacity: 0px;
   margin-bottom: 30px;
   max-width: 800px;
-font-size: 16px;
-font-weight: 500;
-line-height: 20px;
-text-align: left;
-margin-left: 25px;
-margin-bottom: 50px;
-
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: left;
+  /* margin-left: 25px;
+  margin-bottom: 50px; */
+  font-family: "Inter Tight", sans-serif;
+  color: #fbfbfb;
+  text-align: left;
 }
 
 .boxes-container {
   display: flex;
-  gap: 50px;
+  gap: 40px;
   flex-wrap: wrap;
+  border-radius: 30px;
+  width: 335px;
+  height: 533px;
 }
 
 /* Form Container Styles */
 .form-container {
-  background-color:#FBFBFB;
-  padding: 50px;
+  background-color: #fbfbfb;
   border-radius: 30px;
   flex: 1;
-  width: 529px;
-  height: 534px;
-  gap: 10px;;
+  width: 295px;
+  gap: 15px;
 }
 
 .form-title {
@@ -790,35 +785,38 @@ margin-bottom: 50px;
   font-size: 24px;
   margin-bottom: 25px;
   line-height: 26px;
-  width: 428px;
-height: 78px;
-gap: 0px;
-opacity: 0px;
-font-weight: 600px;
-letter-spacing: -1.5%;
-margin-left:25px;
+  width: 295px;
+  height: 130px;
+  gap: 0px;
+  opacity: 0px;
+  font-weight: 600px;
+  font-family: "Inter Tight", sans-serif;
+  letter-spacing: -1.5%;
+  margin-left: 25px;
+  text-align: left;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-.fromus{
-  color: #7A3145;
+.fromus {
+  color: #7a3145;
   letter-spacing: -1.5%;
 }
 
-.theform{
-  color: #576F35;
+.theform {
+  color: #576f35;
   letter-spacing: -1.5%;
 }
-.form-input::placeholder{
-  
-font-size: 16px;
-font-weight: 500;
-line-height: 20px;
-letter-spacing: -0.02em;
-color: #141414;
+.form-input::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #141414;
 }
 
 .form-textarea::placeholder {
-  
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -829,91 +827,71 @@ color: #141414;
   display: flex;
   flex-direction: column;
   gap: 15px;
+  padding-top: 40px;
+  align-items: center;
 }
 
 .form-group {
-width: 429px;
-gap: 10px;
-
-  width: 429px;
-height: 52px;
-gap: 10px;
-
+  gap: 10px;
+}
+.form-input {
+  width: 295px;
+  height: 46px;
 }
 
-.form-input, .form-textarea {
-  width: 429px;
+.form-input,
+.form-textarea {
   padding: 12px;
-  border-radius:30px;
+  border-radius: 30px;
   font-size: 1em;
   border: 1px solid #14141433;
-  margin-bottom:10px;
-  margin-left:10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-family: "Inter Tight", sans-serif;
 }
 
 .form-textarea {
   height: 100px;
   resize: vertical;
-  border-radius: 30px;
-}
-
-.submit-btn {
-  background-color: #576f35;
-  color: rgb(248, 244, 244);
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-right: 191px;
-  padding-left: 191px;
-  gap: 10px;
-  border: none;
-  border-radius: 30px;
-  font-size: 1em;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  width: 429px; 
-  height: 52px;
-  margin-left: 10px;
-  margin-right: 10px;
+  border-radius: 15px;
+  width: 295px;
+  height: 91px;
 }
 
 .submit-btn:hover {
-  background-color: #4A6432;
-  border-radius: 15px;
+  background-color: #4a6432;
 }
 
 .submit-btn {
-  background-color: #5C7C3E;
+  background-color: #5c7c3e;
   color: white;
-  padding: 12px;
+  padding-left: 129px;
+  padding-right: 129px;
+  padding-top: 16px;
   border: none;
-  border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s;
-  width: 100%;
-  margin-top:190px;
-  width: 429px;
-height: 52px;
-gap: 10px;
-border-radius: 30px;
-opacity: 0px;
-margin-left:28px;
-font-size: 18px;
-font-weight: 600;
-line-height: 20px;
-letter-spacing: -0.015em;
+  width: 295px;
+  height: 50px;
+  gap: 10px;
+  border-radius: 30px;
+  opacity: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  font-family: "Inter Tight", sans-serif;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
-
-.imgjuice{
-width: 427px;
-height: 273px;
-padding: 20px;
-border-radius: 15px;
-
-  
+.imgjuice {
+  width: 427px;
+  height: 273px;
+  padding: 20px;
+  border-radius: 15px;
 }
 
-/* Social Container Styles */
 .social-container {
   background-color: #576f35;
   padding: 50px;
@@ -923,8 +901,9 @@ border-radius: 15px;
   min-width: 300px;
   display: flex;
   flex-direction: column;
-  width: 527px;
-  height: 534px;
+  width: 335px;
+  height: 465px;
+
 }
 
 .social-image {
@@ -932,12 +911,9 @@ border-radius: 15px;
   border-radius: 15px;
   overflow: hidden;
   height: 273px;
-  width: 427px;
+  width: 295px;
   border-radius: 15px;
   color: rgba(20, 20, 20, 0.3);
-
-
-  
 }
 
 .social-image img {
@@ -945,14 +921,13 @@ border-radius: 15px;
   height: 273px;
   object-fit: cover;
   border-radius: 15px;
-
 }
 
 .social-content {
   margin-top: auto;
   width: 357px;
   height: 111px;
-  gap: 15px;;
+  gap: 15px;
 }
 
 .social-text {
@@ -964,23 +939,18 @@ border-radius: 15px;
   font-weight: 600;
   line-height: 20px;
   letter-spacing: -0.015em;
-  
-
-  
 }
 
 .social-links {
-  color: #fbfbfb; ;
+  color: #fbfbfb;
   font-size: 1.1em;
-font-size: 32px;
-font-weight: 600;
-line-height: 32px;
-letter-spacing: -0.015em;
-gap:12px;
-margin-top: 20px;
-width: 357px;
-
-
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.015em;
+  gap: 12px;
+  margin-top: 20px;
+  width: 357px;
 }
 
 .social-link {
@@ -1000,17 +970,16 @@ width: 357px;
 }
 
 /* Responsive Design */
-@media screen and (min-width:48opx) and (min-width:768px) {
+@media screen and (min-width: 48opx) and (min-width: 768px) {
   .boxes-container {
-      flex-direction: column;
+    flex-direction: column;
   }
-  
+
   .form-container,
   .social-container {
-      width: 100%;
+    width: 100%;
   }
-  .first-div{
+  .first-div {
     flex-direction: column;
   }
 }
-
