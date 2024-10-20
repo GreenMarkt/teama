@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,72 +16,80 @@
     <div class="container">
       <div class="background-wrapper">
         <header class="header">
-          <div class="header-container container">
-            <nav class="navbar">
-              <svg class="logo-svg" width="194px" height="18px">
-                <use xlink:href="./images/icons.svg#icon-logo"></use>
-              </svg>
-              <input type="checkbox" id="check">
-             
-                <a href="#"><button class="but-bar"><svg class="svg-bar" width="21.33" height="16"><use xlink:href="./images/icons.svg#icon-bar"></use></svg></button></a>
-       
-            
-             <ul class="navbar-ul">
-                <li>
-                <a href="how.html">  <button class="but-how navcontainer" type="submit">
-                    How It Works
-                  </button>
-                </a>
-                </li>
-                <li>
-                  <a href="veg.html">
-                  <button class="but-veg navcontainer" type="submit">
-                    Vegetables
-                  </button>
-                </a>
-                </li>
-                <li>
-                  <a href="rev.html">
-                  <button class="but-rev navcontainer" type="submit">
-                    Reviews
-                  </button>
-                </a>
-                </li>
-                <li>
-                  <a href="shop.html">
-                  <button class="but-shop navcontainer" type="submit">
-                    SHOP NOW
-                  </button>
-                </a>
-                </li>
-
-              </ul>
-
-            </nav>
-          </div>
+            <div class="header-container container">
+                <nav class="navbar">
+                    <svg class="logo-svg" width="194px" height="18px">
+                        <use xlink:href="./images/icons.svg#icon-logo"></use>
+                    </svg>
+                    
+                    
+                    <input type="checkbox" id="check" class="menu-toggle">
+                    
+                    
+                    <label for="check" class="but-bar">
+                        <svg class="svg-bar" width="21.33" height="16">
+                            <use xlink:href="./images/icons.svg#icon-bar"></use>
+                        </svg>
+                    </label>
+    
+                    
+                    
+                    <ul class="navbar-ul">
+                      <li class="close-menu">
+                        <label for="check" class="close-icon">
+                            <svg width="24" height="24">
+                                <use xlink:href="./images/icons.svg#icon-x"></use>
+                            </svg>
+                        </label>
+                    </li>
+                        <li class="how-it">
+                            <a href="how.html">
+                                <button class="but-how navcontainer" type="submit">How It Works</button>
+                            </a>
+                        </li class="vege">
+                        <li>
+                            <a href="veg.html">
+                                <button class="but-veg navcontainer" type="submit">Vegetables</button>
+                            </a>
+                        </li>
+                        <li class="rew">
+                            <a href="rev.html">
+                                <button class="but-rev navcontainer" type="submit">Reviews</button>
+                            </a>
+                        </li>
+                        <li class="shop-now">
+                            <a href="shop.html">
+                                <button class="but-shop navcontainer" type="submit">SHOP NOW</button>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
+    
         <section class="first-section">
-          <div class="container">
-            <div class="first-div">
-              <h1 class="title">
-                organic vegetables <span class="diet">to your diet today!</span>
-              </h1>
-              <p class="explain">
-                Our expertly curated vegetable baskets are made with the
-                freshest, highest quality vegetables available. Fresh Harvest
-                Box has got you covered. Fresh, high-quality vegetables in
-                expertly curated vegetable baskets delivered to you.
-              </p>
+            <div class="container">
+                <div class="first-div">
+                    <h1 class="title">
+                        organic vegetables <span class="diet">to your diet today!</span>
+                    </h1>
+                    <p class="explain">
+                        Our expertly curated vegetable baskets are made with the
+                        freshest, highest quality vegetables available. Fresh Harvest
+                        Box has got you covered. Fresh, high-quality vegetables in
+                        expertly curated vegetable baskets delivered to you.
+                    </p>
+                </div>
+                <div class="img-area">
+                    <img class="first-part-img"
+                    srcset="./images/hero1.png 1x, ./images/hero2.png 2x"
+                    src="./images/hero1.png"
+                    alt="picture">
+                </div>
             </div>
-            <div class="img-area">
-              <img class="first-part-img"
-              srcset="./images/hero1.png 1x, ./images/hero2.png 2x"
-              src="./images/hero1.png"
-              alt="picture">
-            </div>
-          </div>
         </section>
-      </div>
+    </div>
+    
 
       <section class="section-second">
         <div class="section-second-first-part">
@@ -415,4 +423,8 @@
       </footer>
     </div>
   </body>
+</html>
+</header>
+
+</body>
 </html>
