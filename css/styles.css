@@ -237,95 +237,52 @@ body {
 }
 
 
-.organic-up-to {
+.discount-info {
+  width: 375px;
   height: 469px;
-}
-
-.organic-up-to-container {
-  height: 309px;
-  box-sizing: content-box;
   padding-top: 80px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 80px;
 }
-
-.organic-paragraph {
-  width: 335px;
-  height: 306px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 3px;
-}
-
-.discount-info {
-  font-family: Inter Tight;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 50px;
-  letter-spacing: -0.015em;
-  text-align: left;
-}
-
-.up-to {
-  display: block;
-  background-color: #576f35;
-  border-radius: 12px;
-  color: #fbfbfb;
-  font-family: Inter Tight;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 50px;
-  letter-spacing: -0.015em;
-  text-align: left;
+.discount-info-internal {
   width: 355px;
-  height: 102px;
-}
-.organic-up-to {
-  height: 469px;
-}
-
-.organic-up-to-container {
   height: 309px;
-  box-sizing: content-box;
-  padding-top: 80px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 80px;
+  display: flex;
 }
-
-.organic-paragraph {
+.discount-info-green-box {
+  width: 355px;
+  height: 102px;
+  background-color: #576F35;
+  border-radius: 12px;
+}
+.discount-info-text {
   width: 335px;
   height: 306px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 3px;
-}
-
-.discount-info {
-  font-family: Inter Tight;
-  font-size: 47px;
-  font-weight: 600;
-  line-height: 50px;
-  letter-spacing: -0.015em;
-  width: 335px;
-}
-
-.up-to {
-  display: block;
-  background-color: #576f35;
-  border-radius: 12px;
-  color: #fbfbfb;
+  text-transform: uppercase;
   font-family: Inter Tight;
   font-size: 48px;
   font-weight: 600;
   line-height: 50px;
   letter-spacing: -0.015em;
   text-align: left;
-  width: 355px;
-  height: 102px;
+  color: #FBFBFB;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-right: 10px;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column ;
 }
-
+.discount-info-text span {
+  font-family: Inter Tight;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #141414;
+}
 
 .section-second-first-part {
   height: 530px;
