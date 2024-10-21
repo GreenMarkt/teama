@@ -403,11 +403,11 @@ body {
 
 .discount-info {
   font-family: Inter Tight;
-  font-size: 48px;
+  font-size: 47px;
   font-weight: 600;
   line-height: 50px;
   letter-spacing: -0.015em;
-  text-align: left;
+  width: 335px;
 }
 
 .up-to {
@@ -1401,6 +1401,82 @@ a:active {
       width: 600px;
     }
   
+  
+    .organic-up-to {
+      height: 469px;
+    }
+
+    .discount-info{
+      width: 704px;
+      font-size: 64px;
+      line-height: 70px;
+    }
+
+    .section-second-second-part-header{
+      width: 450px;
+      font-size: 32px;
+      line-height: 32px;
+    }
+  
+    .up-to {
+      font-size: 64px;
+      line-height: 70px;
+      width: 704px;
+      height: 102px;
+    }
+  
+    
+  
+    .section-second-first-part-img {
+      padding: 40px;
+    }
+  
+  
+    .section-second-second-part-text {
+      width: 450px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  
+
+    .section-second-second-part-steps{
+      width: 450px;
+      gap: 20px;
+    }
+
+    .section-second-second-part-first-step{
+      width: 450px;
+    }
+
+    .section-second-second-part-first-step-p{
+      width: 325px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+
+    .section-second-second-part-second-step{
+      width: 450px;
+    }
+
+    .section-second-second-part-second-step-p{
+      width: 325px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+
+    .section-second-second-part-third-step{
+      width: 450px;
+    }
+
+    .section-second-second-part-third-step-p{
+      width: 325px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  
+    
   
   
   
