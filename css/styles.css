@@ -1566,12 +1566,12 @@ body {
   .navbar-ul {
     all: unset;
     display: flex;
+    flex-direction: row;
     width: 489px;
     height: 52px;
     gap: 20px;
     list-style-type: none;
-    margin-left: 550px;
-    margin-top: -30px;
+    margin-right:-100px ;
   }
   
   .navcontainer {
@@ -1625,14 +1625,17 @@ body {
     width: 194px;
     height: 18px;
     margin-top: 20px;
+    margin-left: 20px;
     display: flex;
   }
   
   .but-shop {
     all: unset;
+    display: inline-block;
+    box-sizing: border-box;
     width: 157px;
     height: 52px;
-    padding: 16px 32px 16px 32px;
+    padding:16px 32px 16px 32px;
     gap: 10px;
     border-radius: 30px;
     opacity: 0px;
@@ -1644,6 +1647,12 @@ body {
     letter-spacing: -1.5%;
   }
   
+
+  .navbar-ul a{
+    all: unset;
+    color: #fbfbfb;
+  }
+
   .but-shop:hover {
     all: unset;
     background: #622133;
@@ -1691,7 +1700,7 @@ body {
   }
 
   .navbar{
-    gap: 397px;
+    gap: 230px;
   }
 
   .first-part-img1{
@@ -1719,7 +1728,7 @@ body {
   }
   
   .background-wrapper {
-    background: url("../images/hero.jpg") right no-repeat;
+    background: url("../images/hero1.jpg") right no-repeat;
     background-size: 650px 100%;
     background-color: #576f35;
     padding-top: 32px;
