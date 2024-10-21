@@ -1595,23 +1595,25 @@ body {
   }
 
   .header-container {
-    height: 52px;
+    background-color: #576f35;
+    width: 1280px;
+    height: 80px;
     top: 32px;
     padding: 0px 100px 0px 100px;
     gap: 397px;
     display: flex;
   }
-  .close-menu {
-    display: none;
-  }
+  
   .navbar-ul {
     display: flex;
     width: 489px;
     height: 52px;
     gap: 20px;
-    padding-rigt: 100px;
+    list-style-type: none;
+    margin-left: 550px;
+    margin-top: -30px;
   }
-
+  
   .navcontainer {
     font-size: 16px;
     font-weight: 500;
@@ -1622,7 +1624,7 @@ body {
     background-color: transparent;
     justify-content: center;
   }
-
+  
   .but-how {
     border: 1px solid #fbfbfb66;
     width: 114px;
@@ -1630,10 +1632,10 @@ body {
     margin-top: 5px;
     gap: 10px;
     border-radius: 12px 12px 12px 12px;
-
+  
     opacity: 0px;
   }
-
+  
   .but-veg {
     width: 101px;
     height: 44px;
@@ -1643,7 +1645,7 @@ body {
     opacity: 0px;
     margin-top: 5px;
   }
-
+  
   .but-rev {
     width: 81px;
     height: 44px;
@@ -1653,14 +1655,14 @@ body {
     border: 1px solid #fbfbfb66;
     opacity: 0px;
   }
-
+  
   .logo-svg {
     width: 194px;
     height: 18px;
     margin-top: 20px;
     display: flex;
   }
-
+  
   .but-shop {
     width: 157px;
     height: 52px;
@@ -1675,45 +1677,59 @@ body {
     line-height: 20px;
     letter-spacing: -1.5%;
   }
-
+  
   .but-shop:hover {
     background: #622133;
   }
 
+  .but-bar{
+    visibility: hidden;
+  }
+  
   .first-div {
     display: flex;
-    width: 630px;
+    flex-direction: column;
     gap: 128px;
     font-family: "Inter Tight", sans-serif;
     padding-left: 100px;
     padding-right: 100px;
-
+    padding-bottom: 50px;
     padding-top: 238px;
     background: none;
   }
-
+  
   .title {
-    width: 472px;
-    height: 80px;
-
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 1;
+    color: #fbfbfb;
+    text-align: left;
+    width: 502px;
+    text-transform: uppercase;
     margin: 0;
   }
-
+  
   .explain {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
     color: #fbfbfb;
     width: 472px;
-    margin-top: 128px;
   }
-
+  
   .background-wrapper {
+    background: url("../images/hero.jpg") right no-repeat;
     background-size: 650px 100%;
-    padding-left: 100px;
+    background-color: #576f35;
+    padding-top: 32px;
     position: relative;
-    gap: 28px;
   }
+  
+  .header-container,
+  .first-div {
+    background: none;
+  }
+  
 
   .header-container,
   .first-div {
