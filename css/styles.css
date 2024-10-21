@@ -21,7 +21,8 @@ body {
 }
 
 .header-container {
-  background-color: #576f35;
+  background-color:  rgba(87, 111, 53, 1);
+  ;
   height: 80px;
   padding: 0 20px;
   display: flex;
@@ -40,40 +41,51 @@ body {
   gap: 50px;
 }
 
-.menu-toggle:checked ~ .navbar-ul {
-  left: 37%;
-  width: 320px;
-  height: 896px;
-  visibility: inherit;
-}
-
 .navbar-ul {
   position: fixed;
   top: 0;
-  left: -250px;
-  width: 250px;
-  height: 100vh;
-  background-color: #622133;
+  left: 0;
+  width: 100%; /* Ekranın tamamını kaplayacak */
+  height: 100vh; /* Tüm ekran yüksekliği */
+  background-color: rgba(122, 49, 69, 1);
+  ; /* Hafif şeffaf arka plan */
   display: flex;
+  flex-direction: column;
   align-items: center;
-  transition: center 0.3s ease;
-  z-index: 20;
+  justify-content: center;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  z-index: 100; /* Menünün header ve diğer elementlerin üzerinde olması için yüksek z-index */
   visibility: hidden;
+  opacity: 0;
   list-style-type: none;
+}
+
+.menu-toggle:checked ~ .navbar-ul {
+  visibility: visible;
+  opacity: 1; /* Menü görünecek */
 }
 
 .navbar-ul a {
   display: block;
   text-align: center;
   width: 100%;
-  gap: 8px;
-  background-color: #622133;
+  padding: 10px;
   color: white;
   text-decoration: none;
+  list-style-type: none;
 }
 
 .navbar-ul a:hover {
   background-color: #7a3145;
+}
+
+/* Kapatma İkonu Stili */
+.navbar-ul .close-menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: block;
+  cursor: pointer;
 }
 
 .navcontainer {
@@ -81,12 +93,6 @@ body {
   font-weight: 500;
   text-align: center;
   color: #fbfbfb;
-}
-
-.navbar-ul .shop-now {
-  position: fixed;
-  top: 700px;
-  left: 100px;
 }
 
 .but-how, .but-veg, .but-rev, .but-shop {
@@ -114,119 +120,31 @@ body {
   color: rgba(122, 49, 69, 0.7);
 }
 
-.but-bar {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  margin-left: auto;
+.container-first{
+  background-color: rgba(87, 111, 53, 1);
+  ;
 }
 
-.logo-svg {
-  margin-left: 0;
-  margin-right: 20px;
-  display: flex;
-  align-items: center;
+.first-div{
+  gap: 20px;
 }
 
-.close-menu {
-  display: none;
-}
-
-.menu-toggle:checked ~ .navbar-ul {
-  left: 0;
-}
-
-.menu-toggle:checked ~ .navbar-ul .close-menu {
-  display: block;
-  position: fixed;
-  top: 20px;
-  left: 300px;
-}
-
-.menu-toggle:checked ~ .but-bar {
-  display: none;
-}
-
-.navbar-ul {
-  position: fixed;
-  left: 130px;
-  width: 250px;
-  height: 886px;
-  background-color: #622133;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition: left 0.3s ease;
-  z-index: 20;
-  gap: 8px;
-}
-
-.navbar-ul .close-icon {
-  cursor: pointer;
-  margin: 20px 0;
-}
-
-.navbar-ul .how-it {
-  margin-top: 240px;
-}
-
-.first-section .title {
-  font-size: 40px;
-  text-transform: uppercase;
-  font-weight: bold;
+.title{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
   color: #fbfbfb;
   margin-bottom: 20px;
 }
 
-.first-section .explain {
-  font-size: 14px;
-  color: #fbfbfb;
-}
-
-.first-section .img-area {
-  margin-top: 20px;
-}
-
-.first-div {
-  display: flex;
-  flex-direction: column;
-  gap: 128px;
-  font-family: "Inter Tight", sans-serif;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  background: none;
-}
-
-.title {
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 1;
-  color: #fbfbfb;
-  text-align: left;
-  width: 335px;
-  height: 192px;
-  margin-left: 15px;
-}
-
-.explain {
+.explain{
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  font-weight: 18px;
   color: #fbfbfb;
-  width: 335px;
-  height: 90px;
-  margin-top: -90px;
-  margin-left: 15px;
+  margin-bottom: 20px;
 }
 
-.background-wrapper {
-  background-size: 320px 100%;
-  background-color: #576f35;
-  padding-top: 32px;
-  position: relative;
-}
 
 /* 375px ve üzeri için */
 @media (min-width: 375px) {
@@ -234,15 +152,129 @@ body {
     width: 375px;
   }
 
-  .background-wrapper {
-    background-size: 375px 100%;
+
+  .header-container {
+    background-color:  rgba(87, 111, 53, 1);
+    ;
+    height: 80px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .menu-toggle {
+    display: none;
+  }
+  
+  .navbar {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .navbar-ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ekranın tamamını kaplayacak */
+    height: 100vh; /* Tüm ekran yüksekliği */
+    background-color: rgba(122, 49, 69, 1); /* Hafif şeffaf arka plan */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    z-index: 100; /* Menünün header ve diğer elementlerin üzerinde olması için yüksek z-index */
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .menu-toggle:checked ~ .navbar-ul {
+    visibility: visible;
+    opacity: 1; /* Menü görünecek */
+  }
+  
+  .navbar-ul a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    color: #622133;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-ul a:hover {
+    background-color: #7a3145;
+  }
+  
+  /* Kapatma İkonu Stili */
+  .navbar-ul .close-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .navcontainer {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #fbfbfb;
+  }
+  
+  .but-how, .but-veg, .but-rev, .but-shop {
+    border: 1px solid #fbfbfb66;
+    width: 120px;
+    height: 44px;
+    border-radius: 12px;
+    background-color: transparent;
+    color: white;
+    margin: 5px 0;
+    cursor: pointer;
+  }
+  
+  .but-shop {
+    background-color: #fbfbfb;
+    color: #7A3145;
+    width: 157px;
+    padding: 16px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 30px;
+    margin-top: 450px;
+  }
+  
+  .but-shop:hover {
+    color: rgba(122, 49, 69, 0.7);
   }
 
-  .menu-toggle:checked ~ .navbar-ul {
-    left: 37%;
-    width: 375px;
-    height: 896px;
+  .first-div{
+    width: 100%;
+    gap: 20px;
   }
+  
+  .title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    color: #fbfbfb;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .explain{
+    font-weight: 500;
+    font-size: 14px;
+    font-weight: 18px;
+    color: #fbfbfb;
+    margin-bottom: 20px;
+  }
+
+  
 }
 
 
@@ -1137,7 +1169,8 @@ body {
   }
 
   .navbar {
-    gap: 150px;
+    gap: 470px;
+    margin: 0 auto;
   }
 
   .navbar-ul {
@@ -1145,8 +1178,20 @@ body {
     width: 300px;
   }
 
+  .first-div{
+    width: 704px;
+    margin: 0 auto;
+    
+  }
+  .title{
+    width: 704px;
+    
+  }
+
+
   .first-section .title {
-    font-size: 48px;
+    font-size: 76px;
+    line-height: 76px;
   }
 
   .title {
@@ -1393,8 +1438,17 @@ body {
 
 
     .first-part-img{
-      width: 640px;
-      height: 640px;
+      width: 100%;
+      height: 539px;
+      border-radius: 0px;
+    }
+
+    .img-area{
+      margin: 0 auto;
+    }
+
+    .background-wrapper{
+      margin: 0 auto;
     }
 
     .section-second-second-part{
