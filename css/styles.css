@@ -1287,7 +1287,7 @@ a:active {
 
   .review-card {
     width: 343px;
-    display: block;
+    display: flex;
   }
   .review-card:nth-child(n+3) {
     display: none;
