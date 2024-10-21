@@ -1729,5 +1729,59 @@ body {
 .footer{
   height:391px;
   width: 1280px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.priv{
+  margin-left: 30px;
+  font-family: Inter Tight;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.015em;
+text-align: left;
+
+}
+.copy{
+  margin-right:30px;
+  font-family: Inter Tight;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.015em;
+text-align: left;
+
+}
+.footer-left{
+  margin-left:30px;
+  font-family: Inter Tight;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+
+}
+
+.footera{
+  padding-right:100px;
+justify-content: start;
+font-family: Inter Tight;
+font-size: 32px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: -0.015em;
+text-align: left;
+
+}
+
+.contact-info{
+  font-family: Inter Tight;
+font-size: 18px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: -0.015em;
+text-align: left;
+
 }
 }
