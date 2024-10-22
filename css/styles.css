@@ -1040,6 +1040,12 @@ body {
     cursor: pointer;
   }
 
+  .but-how,
+  .but-veg,
+  .but-rev:hover{
+    background-color: #fbfbfb;
+  }
+
   .but-shop {
     background-color: #fbfbfb;
     color: #7a3145;
@@ -1312,6 +1318,12 @@ body {
     color: white;
     margin: 5px 0;
     cursor: pointer;
+  }
+
+  .but-how,
+  .but-veg,
+  .but-rev:hover{
+    background-color: #fbfbfb;
   }
 
   .but-shop {
@@ -1734,6 +1746,7 @@ body {
     height: 52px;
     gap: 20px;
     list-style-type: none;
+    cursor: pointer;
     
   }
   
@@ -1757,8 +1770,11 @@ body {
     margin-top: 5px;
     gap: 10px;
     border-radius: 12px 12px 12px 12px;
-  
+    padding-left: 16px;
     opacity: 0px;
+  }
+  .but-how:hover{
+    background-color: #622133;
   }
   
   .but-veg {
@@ -1770,6 +1786,10 @@ body {
     border: 1px solid #fbfbfb66;
     opacity: 0px;
     margin-top: 5px;
+    padding-left: 16px;
+  }
+  .but-veg:hover {
+    background-color: #622133;
   }
   
   .but-rev {
@@ -1782,6 +1802,11 @@ body {
     border: 1px solid #fbfbfb66;
     opacity: 0px;
     gap: 10px;
+    padding-left: 16px;
+  }
+
+  .but-rev:hover{
+    background-color: #622133;
   }
   
   .logo-svg {
