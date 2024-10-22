@@ -1040,12 +1040,6 @@ body {
     cursor: pointer;
   }
 
-  .but-how,
-  .but-veg,
-  .but-rev:hover{
-    background-color: #fbfbfb;
-  }
-
   .but-shop {
     background-color: #fbfbfb;
     color: #7a3145;
@@ -1318,12 +1312,6 @@ body {
     color: white;
     margin: 5px 0;
     cursor: pointer;
-  }
-
-  .but-how,
-  .but-veg,
-  .but-rev:hover{
-    background-color: #fbfbfb;
   }
 
   .but-shop {
